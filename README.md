@@ -1,19 +1,19 @@
 # PME_Api
 
 
-## clone repo
-# git clone https://github.com/yusufom/PME_Api.git
+# Clone repo
+### git clone https://github.com/yusufom/PME_Api.git
 
-## Install virtual environment
+# Install virtual environment
 
-# virtualenv env
+### virtualenv env
 
-## Activate the environments
-# source env/bin/activate
+# Activate the environments
+### source env/bin/activate
 
-## Install requirements
-# pip freeze requestments.txt
+# Install requirements
+### pip freeze requestments.txt
 
 
-## start app server
-# python manage.py runserver
+# start app server
+### python manage.py runserver
