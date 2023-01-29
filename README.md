@@ -12,7 +12,7 @@
 ### source env/bin/activate
 
 # Install requirements
-### pip freeze requestments.txt
+### pip install -r requestments.txt
 
 
 # start app server
