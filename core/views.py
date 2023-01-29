@@ -37,10 +37,9 @@ def UpdateOrDeleteMemberView(request, pk):
         return Response(member_serializer.errors)
 
     elif request.method == "DELETE":
-        if member_serializer.is_valid():
-            member_serializer.delete()
-            return Response(member_serializer.data)
-        return Response(member_serializer.errors)
+        member.delete()
+        # return Response(member_serializer.data)
+        # return Response(member_serializer.errors)
 
     return Response()
     
