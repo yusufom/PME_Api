@@ -21,8 +21,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api-auth/', include('rest_framework.urls')), 
 
-    path('members/', MembersList.as_view(), name="members-list"),
-    path('members/<int:pk>/', MemberView, name="members-one"),
-    path('members_update/<int:pk>/', UpdateOrDeleteMemberView, name="members-delete-or-update")
+    path('', home_view, name="home-urls"),
+    path('api/members/', MembersList.as_view(), name="members-list"),
+    path('api/members/<int:pk>/', UpdateOrDeleteMemberView, name="members-delete-or-update")
 
 ]
